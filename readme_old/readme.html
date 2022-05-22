@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Cart Life: Readme</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		fixes_over = newImage("readme_images/fixes-over.gif");
+		basilica_over = newImage("readme_images/basilica-over.gif");
+		mcgaow_over = newImage("readme_images/mcgaow-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+</head>
+<body bgcolor="#141414" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">
+<center>
+
+<table height=100% bgcolor=#000000 border=0 cellspacing=0 cellpadding=0><tr height=100% bgcolor=#000000><td width=875 height=100% bgcolor=#000000 valign=middle><center>
+
+<table id="Table_01" width="640" height="400" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="4">
+			<img src="readme_images/readme_01.gif" width="640" height="71" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="6">
+			<img src="readme_images/readme_02.gif" width="23" height="329" alt=""></td>
+		<td colspan="2">
+			<a href="readme_images/fixes.htm"
+				onmouseover="changeImages('fixes', 'readme_images/fixes-over.gif'); return true;"
+				onmouseout="changeImages('fixes', 'readme_images/fixes.gif'); return true;"
+				onmousedown="changeImages('fixes', 'readme_images/fixes-over.gif'); return true;"
+				onmouseup="changeImages('fixes', 'readme_images/fixes-over.gif'); return true;">
+				<img name="fixes" src="readme_images/fixes.gif" width="268" height="101" border="0" alt=""></a></td>
+		<td rowspan="6">
+			<img src="readme_images/readme_04.gif" width="349" height="329" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="readme_images/readme_05.gif" width="268" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<a href="http://www.richardhofmeier.com/cartlife/basilica"
+				onmouseover="changeImages('basilica', 'readme_images/basilica-over.gif'); return true;"
+				onmouseout="changeImages('basilica', 'readme_images/basilica.gif'); return true;"
+				onmousedown="changeImages('basilica', 'readme_images/basilica-over.gif'); return true;"
+				onmouseup="changeImages('basilica', 'readme_images/basilica-over.gif'); return true;">
+				<img name="basilica" src="readme_images/basilica.gif" width="268" height="118" border="0" alt=""></a></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="readme_images/readme_07.gif" width="268" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="readme_images/readme_08.gif" width="1" height="108" alt=""></td>
+		<td>
+			<a href="mcgaow/index.html"
+				onmouseover="changeImages('mcgaow', 'readme_images/mcgaow-over.gif'); return true;"
+				onmouseout="changeImages('mcgaow', 'readme_images/mcgaow.gif'); return true;"
+				onmousedown="changeImages('mcgaow', 'readme_images/mcgaow-over.gif'); return true;"
+				onmouseup="changeImages('mcgaow', 'readme_images/mcgaow-over.gif'); return true;">
+				<img name="mcgaow" src="readme_images/mcgaow.gif" width="267" height="86" border="0" alt=""></a></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="readme_images/readme_10.gif" width="267" height="22" alt=""></td>
+	</tr>
+</table>
+</body>
+</html>
