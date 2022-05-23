@@ -18,9 +18,9 @@ https://sourceforge.net/projects/cartlife/
 
 ## Building
 
-This was originally written in AGS 3.2.1; It compiles and runs now in AGS 3.4.0, which has some improvements over 3.2.1.  
+This was originally written in AGS 3.2.1; It compiles and runs now in AGS 3.6.0:
+https://github.com/adventuregamestudio/ags
 
-You will need to decompress the multi-part .rar file `acpsprset_DECOMPRESSME.*.rar` to get teh acpsprset, which is the sprites file.
 
 ## Contributing
 
