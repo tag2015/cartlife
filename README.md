@@ -1,4 +1,4 @@
-# cartlife_src
+# CartLife
 Source code to CartLife, by Richard Hofmeier.
 
 About: https://en.wikipedia.org/wiki/Cart_Life
@@ -9,18 +9,24 @@ In Cart Life the player controls one of three street vendors, and attempts to ru
 
 The game was received well by critics, with particular praise for the relatable characters, though some critics criticised technical issues. In 2013 Cart Life won the Independent Games Festival Seumas McNally Grand Prize, Nuovo Award, and Excellence in Narrative award.
 
-You will need [Adventure Game Studio](http://www.adventuregamestudio.co.uk/) to edit, compile, and run this.
+You will need [Adventure Game Studio](http://www.adventuregamestudio.co.uk/) to edit and compile the source.
 
 ## Binaries / Game Downloads
 
-I put some binaries, as well as a clone of this repository, up on SourceForge:
+Developer-grade releases will be available on the releases page:
+https://github.com/tag2015/cartlife/releases
+
+The old (2017 release) is still available on SourceForge:
 https://sourceforge.net/projects/cartlife/
 
-## Building
+## Current Work-In-Progress
 
-This was originally written in AGS 3.2.1; It compiles and runs now in AGS 3.4.0, which has some improvements over 3.2.1.  
+This was originally written in AGS 3.2.1; it compiles and runs now in AGS 3.6.0.
 
-You will need to decompress the multi-part .rar file `acpsprset_DECOMPRESSME.*.rar` to get teh acpsprset, which is the sprites file.
+The current task is to refactor the code with no changes to the gameplay.
+Considering the size of the source, this will take some time.
+
+Then we can focus on fixing long-standing bugs and maybe add new features.
 
 ## Contributing
 
