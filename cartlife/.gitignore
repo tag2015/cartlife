@@ -3,3 +3,5 @@ _Debug
 
 backup_acsprset.spr
 *.bak
+*.lock
+*.user
