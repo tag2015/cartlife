@@ -1,0 +1,4 @@
+Due to the sheer number of files and size (over 4Gb), the uncompressed
+resources are not part of the git repository.
+The resources can be extracted (partially or entirely) using the AGS
+Editor ("Sprites" tab -> right click -> export all sprites)

@@ -1,0 +1,6 @@
+#ignore everything here
+*
+
+#except this file and the readme
+!.gitignore
+!wherearethesprites
