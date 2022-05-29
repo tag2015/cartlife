@@ -34,6 +34,13 @@
 #define KEY_SPACE eKeySpace
 
 
+/* Playing characters */
+#define P_ANDRUS 1
+#define P_MEL 2
+#define P_VINNY 3
+#define P_LOGAN 4
+
+
 import function DoorHandle(this Character*);
 import function DoorHandle2(this Character*);
 //import function MixThis(this String*);
